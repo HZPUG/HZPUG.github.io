@@ -6,5 +6,4 @@ categories: python
 tags: python
 ---
 
-[讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/PRINT、PDB之外的调试思路.pdf)
-
+[PRINT、PDB之外的调试思路 讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/PRINT、PDB之外的调试思路.pdf)
