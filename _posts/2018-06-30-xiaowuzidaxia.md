@@ -8,6 +8,7 @@ tags: python
 
 ## 话题分享者 `武志航`
 
+- [YouTube 视频地址](https://www.youtube.com/watch?v=nbWuX9jkMX0)
 - [blog 小屋子大侠](https://blog.csdn.net/qq_33339479/)
 
 ## supervisor的实现原理

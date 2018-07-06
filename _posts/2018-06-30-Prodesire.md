@@ -8,6 +8,7 @@ tags: python
 
 ## 话题分享者 `王斌鑫`
 
+- [YouTube 视频地址](https://www.youtube.com/watch?v=nbWuX9jkMX0)
 - [zhihu Prodesire](https://www.zhihu.com/people/prodesire)
 - [github Prodesire](https://github.com/Prodesire)
 
