@@ -2,6 +2,7 @@
 
 ## 2018-06-30 Python线下聚会
 
+- [YouTube 视频地址](https://www.youtube.com/watch?v=nbWuX9jkMX0)
 
 ### supervisor的实现原理
 
