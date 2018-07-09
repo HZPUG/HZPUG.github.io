@@ -3,6 +3,7 @@
 ## 2018-06-30 Python线下聚会
 
 - [YouTube 视频地址](https://www.youtube.com/watch?v=nbWuX9jkMX0)
+- [Youku 视频地址](https://v.youku.com/v_show/id_XMzcxMzc1NDk2NA==.html)
 
 ### supervisor的实现原理
 
