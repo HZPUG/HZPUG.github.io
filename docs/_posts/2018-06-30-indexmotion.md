@@ -13,4 +13,4 @@ tags: python
 - [github indexmotion](https://github.com/indexmotion)
 
 ## PRINT、PDB之外的调试思路
-- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/PRINT、PDB之外的调试思路.pdf)
+- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/docs/lectures/2018-06-30/PRINT、PDB之外的调试思路.pdf)

@@ -14,5 +14,5 @@ tags: python
 - [blog 小屋子大侠](https://blog.csdn.net/qq_33339479/)
 
 ## supervisor的实现原理
-- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/supervisor的实现原理.pdf)
-- [supervisor demo代码](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/supervisor_demo.zip)
+- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/docs/lectures/2018-06-30/supervisor的实现原理.pdf)
+- [supervisor demo代码](https://github.com/HZPUG/HZPUG.github.io/blob/docs/master/lectures/2018-06-30/supervisor_demo.zip)

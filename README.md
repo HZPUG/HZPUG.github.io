@@ -9,15 +9,15 @@
 
 **话题分享者 `武志航`**
 
-- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/supervisor的实现原理.pdf)
-- [demo.zip](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/supervisor_demo.zip)
+- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/docs/lectures/2018-06-30/supervisor的实现原理.pdf)
+- [demo.zip](https://github.com/HZPUG/HZPUG.github.io/blob/master/docs/lectures/2018-06-30/supervisor_demo.zip)
 - [blog](https://blog.csdn.net/qq_33339479/)
 
 ### PRINT、PDB之外的调试思路
 
 **话题分享者 `竺夏栋`**
 
-- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/PRINT、PDB之外的调试思路.pdf)
+- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/docs/lectures/2018-06-30/PRINT、PDB之外的调试思路.pdf)
 - [github indexmotion](https://github.com/indexmotion)
 
 ### 如何开始一个开源Python项目
@@ -26,4 +26,4 @@
 
 - [zhihu Prodesire](https://www.zhihu.com/people/prodesire)
 - [github Prodesire](https://github.com/Prodesire)
-- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/如何开始一个开源Python项目.pdf)
+- [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/docs/lectures/2018-06-30/如何开始一个开源Python项目.pdf)

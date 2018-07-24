@@ -15,4 +15,4 @@ tags: python
 - [github Prodesire](https://github.com/Prodesire)
 
 ## 如何开始一个开源Python项目 讲义pdf
-[如何开始一个开源Python项目 讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/如何开始一个开源Python项目.pdf)
+[如何开始一个开源Python项目 讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/docs/master/lectures/2018-06-30/如何开始一个开源Python项目.pdf)
