@@ -8,5 +8,5 @@
 
 ### 2018-07-29 Python线下聚会第2期
 
-1. 王飞: 工作流引擎在CI/CD中的实现([Youtube](https://youtu.be/bFJc3y_66s8))
-2. 王鹏翰: Type check ([Youtube](https://youtu.be/e67Ai1EKi6g))
+1. 王飞: 工作流引擎在CI/CD中的实现([Youtube](https://youtu.be/bFJc3y_66s8) [Youku](https://v.youku.com/v_show/id_XMzc1Mjc2NTU3Ng==.html?spm=a2h3j.8428770.3416059.1))
+2. 王鹏翰: Type check ([Youtube](https://youtu.be/e67Ai1EKi6g) [youku](https://v.youku.com/v_show/id_XMzc1Mjc2NDY1Ng==.html?spm=a2h3j.8428770.3416059.1))
