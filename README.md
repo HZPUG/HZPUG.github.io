@@ -1,5 +1,7 @@
 # 杭州Python用户线下聚会列表
 
+活动信息和公告请加群组 [HZPUG google group](https://groups.google.com/forum/#!forum/hzpug)
+
 ### 2018-06-30 Python线下聚会第1期 [YouTube 视频地址](https://www.youtube.com/watch?v=nbWuX9jkMX0) [Youku 视频地址](https://v.youku.com/v_show/id_XMzcxMzc1NDk2NA==.html)
 
 1. 武志航([blog](https://blog.csdn.net/qq_33339479/)): supervisor的实现原理 [讲义pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/supervisor的实现原理.pdf) [demo.zip](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-06-30/supervisor_demo.zip)
