@@ -1,0 +1,483 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>我的演说 - @演说.io</title>
+
+    <meta name="keywords" content="演说，yanshuo, yanshuo.io, 演说.io, 空中演说, 展示文稿, HTML 展示文稿, Web 展示文稿" />
+  	  <meta name="description" content="创作真正跨平台的 HTML5 展示文稿，让你的分享到达世界的任何一个角落" />
+
+  		<meta name="apple-mobile-web-app-capable" content="yes">
+  		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  		<!-- Reveal base style -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/css/reveal.min.css">
+
+  		<!-- Yanshuo.io seed style -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-block.min.css">
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-hljs-theme-bundler.min.css">
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-reveal-theme-bundler.min.css">
+
+  		<!-- Source Sans Web Fonts -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/lib/font/source-sans-pro/source-sans-pro.css">
+
+      <!-- Printing and PDF exports -->
+      <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://yanshuo.io/assets/player//css/print/pdf.css' : '';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+
+      <!--[if lt IE 9]>
+  		<script src="lib/js/html5shiv.js"></script>
+  		<![endif]-->
+
+  		<!-- style for "critical path" -->
+  		<style>
+  	  </style>
+  </head>
+  <body>
+    <!-- TODO: a lightweighted loading -->
+
+    <!-- main slides -->
+    <div id="YS" class="at-code-lh-12" style="width:100%;height:100%;" data-reveal-theme="qcon" data-highlight-theme="ir-black" data-ys-title="我的演说" data-ys-user="laike9m" data-ys-transition="slide" data-ys-backgroundTransition="default" data-ys-transitionSpeed="default" data-ys-fv="1"><style>
+
+  /*********************************************
+   * THEME: qcon
+   *********************************************/
+
+  /*********************************************
+   * Yanshuo Inject
+   *********************************************/
+
+   .hljs{
+     
+   }
+
+  /*********************************************
+   * GLOBAL STYLES
+   *********************************************/
+
+  body, .reveal, .reveal-preview {
+  	background-color: #fff;
+  }
+
+  .reveal, .reveal-preview  {
+    
+    color: #333;
+  }
+
+  ::selection {
+  	background: rgb(87, 167, 224);
+  }
+
+  /*********************************************
+   * HEADERS
+   *********************************************/
+
+  .reveal h1, .reveal-preview h1,
+  .reveal h2, .reveal-preview h2,
+  .reveal h3, .reveal-preview h3,
+  .reveal h4, .reveal-preview h4,
+  .reveal h5, .reveal-preview h5,
+  .reveal h6, .reveal-preview h6 {
+    
+  	color: #246baf;
+  }
+
+
+  /*********************************************
+   * LINKS
+   *********************************************/
+
+  .reveal a, .reveal-preview a {
+  	color: #246baf;
+    text-decoration: underline;
+  }
+  	.reveal a:hover, .reveal-preview a:hover {
+  		color: #1d8045;
+  	}
+
+
+  /*********************************************
+   * NAVIGATION CONTROLS
+   *********************************************/
+
+  .reveal .controls .navigate-left,
+  .reveal .controls .navigate-left.enabled {
+  	border-right-color: #246baf;
+  }
+
+  .reveal .controls .navigate-right,
+  .reveal .controls .navigate-right.enabled {
+  	border-left-color: #246baf;
+  }
+
+  .reveal .controls .navigate-up,
+  .reveal .controls .navigate-up.enabled {
+  	border-bottom-color: #246baf;
+  }
+
+  .reveal .controls .navigate-down,
+  .reveal .controls .navigate-down.enabled {
+  	border-top-color: #246baf;
+  }
+
+  .reveal .controls .navigate-left.enabled:hover {
+  	border-right-color: #1d8045;
+  }
+
+  .reveal .controls .navigate-right.enabled:hover {
+  	border-left-color: #1d8045;
+  }
+
+  .reveal .controls .navigate-up.enabled:hover {
+  	border-bottom-color: #1d8045;
+  }
+
+  .reveal .controls .navigate-down.enabled:hover {
+  	border-top-color: #1d8045;
+  }
+
+  /*********************************************
+   * PROGRESS BAR
+   *********************************************/
+
+  .reveal .progress span {
+  	background: #246baf;
+
+</style><div class="reveal"><div class="slides"><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:220px;width:800px;" class="at-block at-block--pure"><article data-block-id="1484993515779" class="at-block-content"><h1>Introduction to</h1><h1>CLIF</h1><p>左 遥（laike9m@）</p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535778705577" class="at-block-content"><h1>What is CLIF?</h1></article></div><div style="left:79px;top:220px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535779020133" class="at-block-content"><h1><span style="font-size:48px"><span style="color:#A4DD00">C++ Language Interface Foundation</span></span></h1></article></div><div style="left:80.53256704980843px;top:402.37547892720306px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535779084666" class="at-block-content"><p><em>CLIF provides a common foundation for creating <span style="color:#A4DD00">C++ wrapper</span> generators for <span style="color:#A4DD00">various languages</span>.</em></p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:926.5900383141762px;height:710.8682950191571px;left:12.873563218390794px;top:-9.549329501915722px;" class="at-block at-block--pure"><article data-block-id="1535781092719" class="at-block-content"><img src=https://i.loli.net/2018/09/01/5b8a28b323e89.jpg /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:220px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535782063062" class="at-block-content"><ul><li><h2><a href="https://docs.python.org/3/library/ctypes.html"><span style="color:#A4DD00">ctypes</span></a></h2></li><li><h2><a href="https://docs.python.org/3.7/extending/extending.html"><span style="color:#A4DD00">Python C-Extension</span></a></h2></li><li><h2><a href="http://www.boost.org/doc/libs/1_68_0/libs/python/doc/html/index.html"><span style="color:#A4DD00">C</span></a><span style="color:#A4DD00">ython</span></h2></li><li><h2><a href="http://www.swig.org/"><span style="color:#A4DD00">SWIG</span></a></h2></li></ul></article></div><div style="left:77.46743295019157px;top:64.75095785440612px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535782181478" class="at-block-content"><h1>Other options</h1></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:0.8390804597701136px;top:47.1647509578544px;width:956.3218390804599px;height:396.5282664790054px;" class="at-block at-block--pure"><article data-block-id="1535782690558" class="at-block-content MarkdownBlock"><table>
+<thead>
+<tr>
+<th>Lib</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ctypes</td>
+<td>call functions in shared libraries (DLL, .so)</td>
+</tr>
+<tr>
+<td>C-Extension</td>
+<td>low level, replace the part you need</td>
+</tr>
+<tr>
+<td>Cython</td>
+<td>A new language</td>
+</tr>
+<tr>
+<td>SWIG</td>
+<td>wrap existing C/C++ libraries</td>
+</tr>
+<tr>
+<td>CLIF</td>
+<td>wrap existing C++ libraries</td>
+</tr>
+</tbody>
+</table>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-2.2260536398467528px;top:60.95785440613027px;width:982.3754789272031px;height:575.095785440613px;" class="at-block at-block--pure"><article data-block-id="1535799996253" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code><span class="line width-1" start="1"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">hello</span><span class="hljs-params">()</span> </span>{</span>
+<span class="line width-1" start="2">  <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"hello world!"</span>;</span>
+<span class="line width-1" start="3">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code><span class="line width-1" start="1">from <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">hello</span><span class="hljs-params">()</span></span></span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">cpp_lib.hello()  <span class="hljs-comment"># hello world!</span></span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-2.2260536398467528px;top:60.95785440613027px;width:982.3754789272031px;height:575.095785440613px;" class="at-block at-block--pure"><article data-block-id="1535800332996" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-built_in">std</span>::<span class="hljs-function"><span class="hljs-built_in">string</span> <span class="hljs-title">return_hello</span><span class="hljs-params">()</span> </span>{</span>
+<span class="line width-1" start="2">  <span class="hljs-keyword">return</span> <span class="hljs-string">"hello world!"</span>;</span>
+<span class="line width-1" start="3">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">return_hello</span><span class="hljs-params">()</span></span></span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">print(cpp_lib.return_hello())  <span class="hljs-comment"># None</span></span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-6.823754789272041px;top:102.33716475095785px;width:982.3754789272031px;height:575.095785440613px;" class="at-block at-block--pure"><article data-block-id="1535800332996" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-built_in">std</span>::<span class="hljs-function"><span class="hljs-built_in">string</span> <span class="hljs-title">return_hello</span><span class="hljs-params">()</span> </span>{</span>
+<span class="line width-1" start="2">  <span class="hljs-keyword">return</span> <span class="hljs-string">"hello world!"</span>;</span>
+<span class="line width-1" start="3">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">return_hello</span><span class="hljs-params">()</span> -&gt; str</span></span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">print(cpp_lib.return_hello())  <span class="hljs-comment"># hello world!</span></span>
+</code></pre>
+</article></div><div style="left:77.46743295019158px;top:13.103448275862064px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535801113485" class="at-block-content"><h2><span style="color:#A4DD00">return value</span></h2></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-3.758620689655182px;top:68.62068965517241px;width:982.3754789272031px;height:618.0076628352491px;" class="at-block at-block--pure"><article data-block-id="1535800715870" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">add</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span> </span>{</span>
+<span class="line width-1" start="2">  <span class="hljs-keyword">return</span> x + y;</span>
+<span class="line width-1" start="3">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">add</span><span class="hljs-params">(x: int, y: int)</span> -&gt; int</span></span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">print(cpp_lib.add(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>))  <span class="hljs-comment"># 3</span></span>
+</code></pre>
+</article></div><div style="left:69.80459770114943px;top:-16.015325670498086px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535801261397" class="at-block-content"><h2><span style="color:#A4DD00">parameters</span></h2></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:80.53256704980843px;top:57.89272030651341px;width:800px;height:575.095785440613px;" class="at-block at-block--pure"><article data-block-id="1535808627409" class="at-block-content MarkdownBlock"><table>
+<thead>
+<tr>
+<th>default C++ type</th>
+<th>CLIF type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>int</td>
+</tr>
+<tr>
+<td>string</td>
+<td>bytes <em>or</em> str</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>bool</td>
+</tr>
+<tr>
+<td>double</td>
+<td>float</td>
+</tr>
+<tr>
+<td>vector&lt;&gt;</td>
+<td>list&lt;&gt;</td>
+</tr>
+<tr>
+<td>pair&lt;&gt;</td>
+<td>tuple&lt;&gt;</td>
+</tr>
+<tr>
+<td>unordered_set&lt;&gt;</td>
+<td>set&lt;&gt;</td>
+</tr>
+<tr>
+<td>unordered_map&lt;&gt;</td>
+<td>dict&lt;&gt;</td>
+</tr>
+<tr>
+<td>PyObject*</td>
+<td>object </td>
+</tr>
+</tbody>
+</table>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:270px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535799725403" class="at-block-content"><h1>Pointer ?</h1></article></div><div style="left:223.06130268199234px;top:436.4367816091954px;width:495.0191570881226px;height:130.65134099616859px;" class="at-block at-block--pure"><article data-block-id="1535809170059" class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">F</span><span class="hljs-params">(<span class="hljs-built_in">string</span> input, <span class="hljs-built_in">string</span>* output)</span> </span>{</span>
+<span class="line width-1" start="2">  *output = input;</span>
+<span class="line width-1" start="3">  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span>
+<span class="line width-1" start="4">}</span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535799725403" class="at-block-content"><h1>Parameter order</h1></article></div><div style="left:26.89272030651339px;top:303.1034482758621px;width:878.1609195402299px;height:263.9846743295019px;" class="at-block at-block--pure"><article data-block-id="1535809865248" class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">F</span><span class="hljs-params">(input_param1, input_param2, ..., output_param1, output_param2)</span> </span>{</span>
+<span class="line width-1" start="2">  ...</span>
+<span class="line width-1" start="3">}</span>
+</code></pre>
+</article></div><div style="left:34.55555555555556px;top:488.1992337164751px;width:858.2375478927203px;height:auto;" class="at-block at-block--pure"><article data-block-id="1535810070008" class="at-block-content"><p><em>all input parameters before any output parameter(s)</em></p><p style="text-align:right"><span style="color:#999999">- Google C++ convention</span></p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-2.2260536398467528px;top:68.62068965517241px;width:982.3754789272031px;height:618.0076628352491px;" class="at-block at-block--pure"><article data-block-id="1535800715870" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">F</span><span class="hljs-params">(<span class="hljs-built_in">string</span> input, <span class="hljs-built_in">string</span>* output)</span> </span>{</span>
+<span class="line width-1" start="2">  *output = input;</span>
+<span class="line width-1" start="3">  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span>
+<span class="line width-1" start="4">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">F</span><span class="hljs-params">(input: str)</span> -&gt; (code:</span> int, output: str)</span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">print(cpp_lib.F(<span class="hljs-string">'aaa'</span>))  <span class="hljs-comment"># (0, 'aaa')</span></span>
+</code></pre>
+</article></div><div style="left:69.80459770114943px;top:5.440613026819921px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535801261397" class="at-block-content"><h3>Output param —&gt; return value</h3></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-3.758620689655182px;top:68.62068965517241px;width:982.3754789272031px;height:618.0076628352491px;" class="at-block at-block--pure"><article data-block-id="1535800715870" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-function"><span class="hljs-built_in">string</span>* <span class="hljs-title">F</span><span class="hljs-params">()</span> </span>{</span>
+<span class="line width-1" start="2">  <span class="hljs-keyword">static</span> <span class="hljs-built_in">string</span> s = <span class="hljs-string">"AAA"</span>;</span>
+<span class="line width-1" start="3">  <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"s is: "</span> &lt;&lt; s;</span>
+<span class="line width-1" start="4">  <span class="hljs-keyword">return</span> &amp;s;</span>
+<span class="line width-1" start="5">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">F</span><span class="hljs-params">()</span> -&gt; str</span></span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">print(cpp_lib.F())  <span class="hljs-comment"># 'AAA'</span></span>
+</code></pre>
+</article></div><div style="left:69.80459770114943px;top:-16.015325670498086px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535801261397" class="at-block-content"><h2>But it's not perfect</h2></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-3.758620689655182px;top:68.62068965517241px;width:982.3754789272031px;height:671.6475095785441px;" class="at-block at-block--pure"><article data-block-id="1535800715870" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-function"><span class="hljs-built_in">string</span>&amp; <span class="hljs-title">F</span><span class="hljs-params">()</span> </span>{</span>
+<span class="line width-1" start="2">  <span class="hljs-keyword">static</span> <span class="hljs-built_in">string</span> s = <span class="hljs-string">"AAA"</span>;</span>
+<span class="line width-1" start="3">  <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"s is: "</span> &lt;&lt; s;</span>
+<span class="line width-1" start="4">  <span class="hljs-keyword">return</span> s;</span>
+<span class="line width-1" start="5">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">F</span><span class="hljs-params">()</span> -&gt; str</span></span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">s = cpp_lib.F()  <span class="hljs-comment"># s is: AAA</span></span>
+<span class="line width-1" start="4">s = <span class="hljs-string">"BBB"</span></span>
+<span class="line width-1" start="5">cpp_lib.F()      <span class="hljs-comment"># s is: AAA</span></span>
+</code></pre>
+</article></div><div style="left:69.80459770114943px;top:-16.015325670498086px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535801261397" class="at-block-content"><h2>Same with reference</h2></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-2.2260536398467528px;top:-9.540229885057471px;width:982.3754789272031px;height:719.1570881226054px;" class="at-block at-block--pure"><article data-block-id="1535800715870" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-keyword">namespace</span> foo {</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3"><span class="hljs-built_in">std</span>::<span class="hljs-function"><span class="hljs-built_in">string</span> <span class="hljs-title">return_hello</span><span class="hljs-params">()</span> </span>{</span>
+<span class="line width-1" start="4">  <span class="hljs-keyword">return</span> <span class="hljs-string">"hello world!"</span>;</span>
+<span class="line width-1" start="5">}</span>
+<span class="line width-1" start="6"></span>
+<span class="line width-1" start="7">}</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> <span class="hljs-string">"experimental/users/yaoz/CLIF_test/cpp_lib.h"</span>:</span>
+<span class="line width-1" start="2">  namespace `foo`:</span>
+<span class="line width-1" start="3">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">return_hello</span><span class="hljs-params">()</span> -&gt; str</span></span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-keyword">from</span> google3.experimental.users.yaoz.CLIF_test.python <span class="hljs-keyword">import</span> cpp_lib</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">print(cpp_lib.return_hello())  <span class="hljs-comment"># hello world!</span></span>
+</code></pre>
+</article></div><div style="left:74.40229885057472px;top:-89.5785440613027px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535801261397" class="at-block-content"><h2><span style="color:#A4DD00">namespace</span></h2></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535799725403" class="at-block-content"><h1>Class</h1></article></div><div style="left:79px;top:234.1379310344828px;width:800px;height:426.43678160919535px;" class="at-block at-block--pure"><article data-block-id="1535812685459" class="at-block-content MarkdownBlock"><p>cpp_lib.clif</p>
+<pre class="hljs"><code><span class="line width-2" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyClass</span>:</span></span>
+<span class="line width-2" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(<span class="hljs-keyword">self</span>, <span class="hljs-symbol">param:</span> int, <span class="hljs-symbol">another_param:</span> float)</span></span></span>
+<span class="line width-2" start="3"></span>
+<span class="line width-2" start="4">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Method</span><span class="hljs-params">(<span class="hljs-keyword">self</span>)</span></span> -&gt; dict&lt;int, int&gt;</span>
+<span class="line width-2" start="5"></span>
+<span class="line width-2" start="6">  @classmethod</span>
+<span class="line width-2" start="7">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">StaticMethod</span><span class="hljs-params">(cls, <span class="hljs-symbol">param:</span> int)</span></span></span>
+<span class="line width-2" start="8"></span>
+<span class="line width-2" start="9"><span class="hljs-comment"># or better written as</span></span>
+<span class="line width-2" start="10">staticmethods from <span class="hljs-string">`MyClass`</span>:</span>
+<span class="line width-2" start="11">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">StaticMethod</span><span class="hljs-params">(<span class="hljs-symbol">param:</span> int)</span></span></span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:71.33716475095785px;top:-1.1494252873563227px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535799725403" class="at-block-content"><h2>Multiple constructors?</h2></article></div><div style="left:80.53256704980843px;top:76.28352490421456px;width:800px;height:671.6475095785441px;" class="at-block at-block--pure"><article data-block-id="1535812989348" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span> {</span></span>
+<span class="line width-1" start="2"> <span class="hljs-keyword">public</span>:</span>
+<span class="line width-1" start="3">  Foo(){};</span>
+<span class="line width-1" start="4">  Foo(<span class="hljs-keyword">int</span> special) : var(special) {}</span>
+<span class="line width-1" start="5">  <span class="hljs-keyword">int</span> var;</span>
+<span class="line width-1" start="6">};</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1">class Foo:</span>
+<span class="line width-1" start="2">  def __init__(self, special: int)</span>
+<span class="line width-1" start="3">  @add__init__</span>
+<span class="line width-1" start="4">  def Factory(self)</span>
+</code></pre>
+<p>test.py</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1">inst_a = cpp_lib.Foo(<span class="hljs-number">1</span>)</span>
+<span class="line width-1" start="2">inst_b = cpp_lib.Foo.Factory()</span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535813683429" class="at-block-content"><h1>Function renaming</h1></article></div><div style="left:77.46743295019157px;top:211.14942528735634px;width:800px;height:500px;" class="at-block at-block--pure"><article data-block-id="1535813914556" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Vector</span> {</span></span>
+<span class="line width-1" start="2"> <span class="hljs-keyword">public</span>:</span>
+<span class="line width-1" start="3">  <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">Size</span><span class="hljs-params">()</span></span>;</span>
+<span class="line width-1" start="4">};</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code class="lang-python"><span class="line width-1" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Vector</span>:</span></span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3">  <span class="hljs-function"><span class="hljs-keyword">def</span> `<span class="hljs-title">Size</span>` <span class="hljs-title">as</span> <span class="hljs-title">__len__</span><span class="hljs-params">()</span> -&gt; int</span></span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:80.53256704980843px;top:34.09961685823754px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535813683429" class="at-block-content"><h1>Attribute access</h1></article></div><div style="left:79px;top:151.37931034482762px;width:800px;height:556.7049808429119px;" class="at-block at-block--pure"><article data-block-id="1535814781680" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">A</span>:</span></span>
+<span class="line width-1" start="2">  <span class="hljs-keyword">public</span>:</span>
+<span class="line width-1" start="3">    v: <span class="hljs-built_in">list</span>&lt;<span class="hljs-keyword">int</span>&gt;</span>
+<span class="line width-1" start="4">    <span class="hljs-function">File <span class="hljs-title">get_file</span><span class="hljs-params">()</span></span>;</span>
+<span class="line width-1" start="5">    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">set_file</span><span class="hljs-params">(File)</span></span>;</span>
+<span class="line width-1" start="6">  <span class="hljs-keyword">private</span>:</span>
+<span class="line width-1" start="7">    File f;</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code><span class="line width-1" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">A</span>:</span></span>
+<span class="line width-1" start="2">  v: <span class="hljs-built_in">list</span>&lt;<span class="hljs-keyword">int</span>&gt;</span>
+<span class="line width-1" start="3">  file: File = property(`get_file`, `set_file`)</span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.46743295019157px;top:-4.214559386973178px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535813683429" class="at-block-content"><h1>Inheritance</h1></article></div><div style="left:79px;top:116.13026819923371px;width:800px;height:573.5632183908046px;" class="at-block at-block--pure"><article data-block-id="1535816353134" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-2" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span> {</span></span>
+<span class="line width-2" start="2"> <span class="hljs-keyword">public</span>:</span>
+<span class="line width-2" start="3">  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">SomethingInteresting</span><span class="hljs-params">()</span></span>;</span>
+<span class="line width-2" start="4">};</span>
+<span class="line width-2" start="5"></span>
+<span class="line width-2" start="6"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Child</span> :</span> <span class="hljs-keyword">public</span> Parent {</span>
+<span class="line width-2" start="7"> <span class="hljs-keyword">public</span>:</span>
+<span class="line width-2" start="8">  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Useful</span><span class="hljs-params">()</span></span>;</span>
+<span class="line width-2" start="9">};</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code><span class="line width-1" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Child</span>:</span></span>
+<span class="line width-1" start="2">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">SomethingInteresting</span><span class="hljs-params">(<span class="hljs-keyword">self</span>)</span></span></span>
+<span class="line width-1" start="3">  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">Useful</span><span class="hljs-params">(<span class="hljs-keyword">self</span>)</span></span></span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.46743295019157px;top:-4.214559386973178px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535813683429" class="at-block-content"><h1>Inheritance</h1></article></div><div style="left:79px;top:91.60919540229884px;width:800px;height:598.0842911877395px;" class="at-block at-block--pure"><article data-block-id="1535816353134" class="at-block-content MarkdownBlock"><p>cpp_lib.h</p>
+<pre class="hljs"><code class="lang-cpp"><span class="line width-1" start="1"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span> {</span></span>
+<span class="line width-1" start="2">...</span>
+<span class="line width-1" start="3">};</span>
+<span class="line width-1" start="4"></span>
+<span class="line width-1" start="5"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Child</span> :</span> <span class="hljs-keyword">public</span> Parent {</span>
+<span class="line width-1" start="6"> <span class="hljs-keyword">public</span>:</span>
+<span class="line width-1" start="7">  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Useful</span><span class="hljs-params">()</span></span>;</span>
+<span class="line width-1" start="8">};</span>
+</code></pre>
+<p>cpp_lib.clif</p>
+<pre class="hljs"><code><span class="line width-1" start="1"><span class="hljs-keyword">from</span> full.path.to.another.python.wrapper <span class="hljs-keyword">import</span> Parent</span>
+<span class="line width-1" start="2"></span>
+<span class="line width-1" start="3"><span class="hljs-keyword">from</span> <span class="hljs-string">"c/include/path/to/child.h"</span>:</span>
+<span class="line width-1" start="4">  <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span>:</span></span>
+<span class="line width-1" start="5">    <span class="hljs-comment"># wraps Parent class</span></span>
+<span class="line width-1" start="6"></span>
+<span class="line width-1" start="7">  <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Child</span><span class="hljs-params">(Parent)</span>:</span></span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article data-block-id="1535799725403" class="at-block-content"><h1>GIL</h1></article></div><div style="left:36.08812260536398px;top:264.44444444444446px;width:873.5632183908046px;height:auto0;" class="at-block at-block--pure"><article data-block-id="1535811811335" class="at-block-content"><p>CLIF <strong>will release the GIL on every function call</strong>,</p><p>except for:</p><ul><li>Default constructors</li><li>Properties and variable access</li><li>Functions marked with&nbsp;@do_not_release_gil</li><li>Functions that take or return the Python&nbsp;object&nbsp;type.</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article data-block-id="1521386769154" class="at-block-content"><h1>总结</h1></article></div><div style="left:79px;top:220px;width:819.9233716475096px;height:auto;" class="at-block at-block--pure"><article data-block-id="1535823174830" class="at-block-content"><ul><li>CLIF 包装已有的 C++ lib 给 Python 提供 API</li><li>.clif 文件描述接口</li><li>output parameter -&gt; return value</li><li>指针、引用无法完全兼容</li><li>函数重命名</li><li>@add__init__ 提供&nbsp;Factory 支持多个构造函数</li></ul><p>&nbsp;</p><p><a href="https://github.com/google/clif">https://github.com/google/clif</a></p></article></div></section><style>.at-block{ position:absolute }</style></div></div></div>
+
+    <!-- dependencies -->
+		<script src="https://yanshuo.io/assets/player/lib/js/head.min.js"></script>
+		<script src="https://yanshuo.io/assets/player/js/reveal.min.js"></script>
+
+    <!-- init -->
+    <script>
+      Reveal.initialize({
+        controls: true,
+        history: true,
+        center: false,
+
+        transition:             'slide',
+        backgroundTransition:   'default',
+        transitionSpeed:        'default',
+
+        // no marked.js
+				// no markdown.js
+				// no highlight.js
+				dependencies: [
+					{ src: 'https://yanshuo.io/assets/player/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'https://yanshuo.io/assets/player/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'https://yanshuo.io/assets/player/plugin/notes/notes.js', async: true }
+				]
+      });
+    </script>
+  </body>
+</html>
