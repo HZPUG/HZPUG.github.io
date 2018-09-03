@@ -12,3 +12,8 @@
 
 1. 王飞: 工作流引擎在CI/CD中的实现([Youtube](https://youtu.be/bFJc3y_66s8) [Youku](https://v.youku.com/v_show/id_XMzc1Mjc2NTU3Ng==.html?spm=a2h3j.8428770.3416059.1) [pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-07-29/%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%BC%95%E6%93%8E%E5%9C%A8CI:CD%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.pdf))
 2. 王鹏翰: Learn static type check the hard way ([Youtube](https://youtu.be/e67Ai1EKi6g) [youku](https://v.youku.com/v_show/id_XMzc1Mjc2NDY1Ng==.html?spm=a2h3j.8428770.3416059.1) [pdf](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-07-29/type%20hint%20copy.pdf))
+
+### 2018-09-02 Python线下聚会第3期
+
+1. laike9m: Introduction to CLIF([Slides](https://hzpug.github.io/lectures/2018-09-02/CLIF.html#/) [Youtube](https://youtu.be/BN2nmhEYuJk))
+2. messense: State of Using Rust in Python([Youtube](https://youtu.be/2mtRcX4PgLw))
