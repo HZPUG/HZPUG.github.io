@@ -15,5 +15,5 @@
 
 ### 2018-09-02 Python线下聚会第3期
 
-1. laike9m: Introduction to CLIF([Slides](https://hzpug.github.io/lectures/2018-09-02/CLIF.html#/) [Youtube](https://youtu.be/BN2nmhEYuJk))
-2. messense: State of Using Rust in Python([Youtube](https://youtu.be/2mtRcX4PgLw))
+1. laike9m: Introduction to CLIF([Slides](https://hzpug.github.io/lectures/2018-09-02/CLIF.html#/) [Youtube](https://youtu.be/2mtRcX4PgLw))
+2. messense: State of Using Rust in Python([Youtube](https://youtu.be/BN2nmhEYuJk))
