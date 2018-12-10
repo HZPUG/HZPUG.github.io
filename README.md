@@ -22,5 +22,5 @@
 
 本期活动人手不够，没有录制视频，请大家见谅。
 
-1. angwer: 我的Python进程怎么了? [Slides](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-11-25/%E6%88%91%E7%9A%84Python%E8%BF%9B%E7%A8%8B%E6%80%8E%E4%B9%88%E4%BA%86.key)
-2. Kevin: Modern Way using asyncio [Slides](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-11-25/%E7%8E%B0%E4%BB%A3%E6%96%B9%E5%BC%8F%E4%BD%BF%E7%94%A8asyncio.key)
+1. angwer: 我的Python进程怎么了? [Slides](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-11-25/%E6%88%91%E7%9A%84Python%E8%BF%9B%E7%A8%8B%E6%80%8E%E4%B9%88%E4%BA%86.pdf)
+2. Kevin: Modern Way using asyncio [Slides](https://github.com/HZPUG/HZPUG.github.io/blob/master/lectures/2018-11-25/%E7%8E%B0%E4%BB%A3%E6%96%B9%E5%BC%8F%E4%BD%BF%E7%94%A8asyncio.pdf)
